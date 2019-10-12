@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let t1=1;
+    let t2=1;
+    let tieptheo;
+    let sum=0;
+    for (i=1;i<=30;i++){
+        sum += t1;
+        tieptheo = t1 + t2;
+        t1 =t2;
+        t2 = sum;
+    }
+    alert("Tổng = " + sum);
+</script>
+</body>
+</html>
